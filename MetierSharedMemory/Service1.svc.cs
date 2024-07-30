@@ -66,8 +66,6 @@ namespace MetierSharedMemory
             }
         }
 
-
-
         /// <summary>
         /// </summary>
         /// <param name="encadreur"></param>
@@ -162,24 +160,9 @@ namespace MetierSharedMemory
             if (!string.IsNullOrEmpty(Specialite))
             {
                 liste = liste.Where(a => a.Specialite.ToUpper().Contains(Specialite.ToUpper())).ToList();
-
             }
-
             return liste;
         }
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
 
 }

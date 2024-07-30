@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-include "../backend/db.php";
+include_once "../backend/db.php";
 
 // Vérifie si l'ID est passé dans les paramètres GET
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;

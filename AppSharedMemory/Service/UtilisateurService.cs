@@ -35,7 +35,6 @@ namespace AppSharedMemory.Service
                 var responseData = response.Content.ReadAsStringAsync().Result;
                 utilisateurs = JsonConvert.DeserializeObject<List<Utilisateur>>(responseData);
             }
-
             return utilisateurs;
         }
 

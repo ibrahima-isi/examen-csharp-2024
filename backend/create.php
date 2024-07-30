@@ -1,6 +1,6 @@
 <?php
     header('Content-Type: application/json');
-    include "../backend/db.php";
+    include_once "../backend/db.php";
     
     $nom = $_POST['nom'];
     $prenom = $_POST['prenom'];

@@ -1,6 +1,6 @@
 <?php
     header('Content-Type: application/json');
-    include "../backend/db.php";
+    include_once "../backend/db.php";
     
     $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
     
