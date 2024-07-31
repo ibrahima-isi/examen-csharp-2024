@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-include "../backend/db.php";
+include_once "../backend/db.php";
 
 // Vérifie la méthode de la requête
 if ($_SERVER['REQUEST_METHOD'] === 'PUT') {
