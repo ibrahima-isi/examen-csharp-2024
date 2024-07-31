@@ -155,5 +155,16 @@ namespace AppSharedMemory
                 txtAge.Text = selectedRow.Cells["Age"].Value.ToString();
             }
         }
+
+
+        /// <summary>
+        /// Quitte l'application
+        /// </summary>
+        /// <param name="sender">l'objet</param>
+        /// <param name="e">l'evenement</param>
+        private void btnQuitter_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

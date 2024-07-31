@@ -77,6 +77,7 @@ C:\Users\ibrab\Desktop\examen-csharp-2024\MetierSharedMemory\bin\Microsoft.Bcl.A
 C:\Users\ibrab\Desktop\examen-csharp-2024\MetierSharedMemory\bin\MySql.Data.xml
 C:\Users\ibrab\Desktop\examen-csharp-2024\MetierSharedMemory\bin\MySql.Data.EntityFramework.xml
 C:\Users\ibrab\Desktop\examen-csharp-2024\MetierSharedMemory\bin\System.Buffers.xml
+C:\Users\ibrab\Desktop\examen-csharp-2024\MetierSharedMemory\bin\System.Configuration.ConfigurationManager.xml
 C:\Users\ibrab\Desktop\examen-csharp-2024\MetierSharedMemory\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\ibrab\Desktop\examen-csharp-2024\MetierSharedMemory\bin\System.IO.Pipelines.xml
 C:\Users\ibrab\Desktop\examen-csharp-2024\MetierSharedMemory\bin\System.Memory.xml
