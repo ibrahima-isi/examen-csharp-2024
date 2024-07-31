@@ -55,8 +55,8 @@ namespace AppSharedMemory.Service
                 { "prenom", utilisateur.prenom },
                 { "age", utilisateur.age.ToString() }
             };
-            var content = new FormUrlEncodedContent(values);
 
+            var content = new FormUrlEncodedContent(values);           
             try
             {
                 using (var client = new HttpClient())
